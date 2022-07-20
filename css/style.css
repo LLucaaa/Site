@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner&family=Open+Sans&family=Roboto:ital,wght@1,300&display=swap');
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#menu-nav{
+    background-color: white;
+}
+
+#menu-nav ul{
+    max-width: 800px;
+    list-style: none;
+    padding: 0;
+    background-color: white;
+}
+
+#menu-nav ul li {
+    display: inline;
+}
+
+#menu-nav ul li a{
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(150, 147, 9);
+    padding: 20px;
+    
+
+}
+
+#menu-nav ul li a:hover{
+    background-color: rgb(150, 147, 9);
+    transition: background .5s;
+}
+
+#menu-nav ul :last-child a{
+    float: right;
+    background-color: rgb(150, 147, 9);
+    
+}
