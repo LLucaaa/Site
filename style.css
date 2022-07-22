@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oxygen&family=Signika+Negative:wght@300&display=swap");
+body {
+  padding: 0;
+  margin: 0;
+  background-color: rgb(226, 70, 130);
+}
+
+#fundo {
+  background-image: url(img/fundo\ horizontal.jpg);
+  background-repeat: no-repeat;
+  height: 760px;
+  width: 1990px;
+
+  background: fixed;
+  
+}
+#text-center {
+  position: absolute;
+  text-align: center;
+  left: 29%;
+  top: 80px;
+}
+#text-center h2 {
+  font-size: 50px;
+  font-family: "Open Sans", sans-serif;
+  color: white;
+}
+
+#countdown {
+  color: white;
+  text-align: center;
+  top: 380px;
+  position: absolute;
+  right: 500px;
+  left: 500px;
+  font-size: 40px;
+  font-family: "Oxygen", sans-serif;
+  font-family: "Signika Negative", sans-serif;
+}
+
+div {
+  display: inline-block;
+  padding: 20px;
+}
+
+#countdown h2 {
+  text-decoration: underline;
+  text-underline-offset: 1.6rem;
+  text-decoration-color: rgb(255, 56, 179);
+}
+
+.container2{
+  background-color: blueviolet;
+  position: absolute;
+  width: 1990px;
+  height: 760px;
+  
+}
+
+#text{
+
+  text-align: center;
+  color: white;
+  margin: right 20px;
+  margin:left 20px;
+  position: absolute;
+}
