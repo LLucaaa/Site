@@ -8,7 +8,7 @@ body {
 }
 
 #fundo {
-  background-image: url(img/fundo\ horizontal.jpg);
+  background-image: url(img/fundo_horizontal.jpg);
   background-repeat: no-repeat;
   height: 760px;
   width: 1903px;
@@ -89,38 +89,18 @@ div {
   margin-block-start: 300px;
   margin-block-end: 0px;
   margin-left: 815px;
+  position: absolute;
 }
-.container3 {
-  background-color: rgb(184, 3, 3);
-  position: relative;
+
+.container3{
+
+  background-color: red;
   width: 1903px;
-  height: 450px;
+  height: 500px;
+  position: absolute;
+  margin-top: 500px;
 }
 
-#address {
-  text-align: center;
-  color: white;
-  margin-left: 750px;
-  margin-top: 30px;
-}
 
-.container4 {
-  background-color: rgb(105, 0, 204);
-  width: 1903px;
-  position:static;
-}
-
-#copyright{
-  color: white;
-  margin-left: 890px;
-
-}
-
-#scroll{
-  position: relative;
-  margin-left: 920px;
-  
-}
-ss
 
 
