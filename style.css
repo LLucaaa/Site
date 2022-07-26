@@ -94,11 +94,34 @@ div {
 
 .container3{
 
-  background-color: red;
+  background-color: #b21236;
   width: 1903px;
   height: 500px;
   position: absolute;
   margin-top: 500px;
+}
+
+#address{
+
+  text-align: center;
+  color: white;
+  margin-left: 760px;
+  margin-top: 50px;
+
+}
+
+.baseboard{
+
+  background-color: rgb(105, 0, 204);
+  position: absolute;
+  width: 1903px;
+  height: 80px;
+  margin-top: 1000px;
+}
+
+#copyright p{
+ color: white;
+ margin-left: 880px;
 }
 
 
