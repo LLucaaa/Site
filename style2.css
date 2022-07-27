@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Acme&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  animation: fadein 2s; /* Padrão */
+  -webkit-animation: fadein 2s; /* Webkit */
+  -moz-animation: fadein 2s; /* Firefox */
+  -ms-animation: fadein 2s; /* IE */
+}
+
+
+#background img {
+  width: 1903px;
+  position: relative;
+  transition: all 2s;
+}
+
+#text-center {
+  background-color: transparent;
+  text-align: center;
+  top: 30px;
+  position: absolute;
+  color: white;
+  font-size: 50px;
+  font-family: "Acme", sans-serif;
+  margin-left: 750px;
+  transition: all;
+}
