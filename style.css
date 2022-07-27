@@ -92,8 +92,7 @@ div {
   position: absolute;
 }
 
-.container3{
-
+.container3 {
   background-color: #b21236;
   width: 1903px;
   height: 500px;
@@ -101,17 +100,14 @@ div {
   margin-top: 500px;
 }
 
-#address{
-
+#address {
   text-align: center;
   color: white;
   margin-left: 760px;
   margin-top: 50px;
-
 }
 
-.baseboard{
-
+.baseboard {
   background-color: rgb(105, 0, 204);
   position: absolute;
   width: 1903px;
@@ -119,11 +115,38 @@ div {
   margin-top: 1000px;
 }
 
-#copyright p{
- color: white;
- margin-left: 880px;
+#copyright p {
+  color: white;
+  margin-left: 880px;
 }
 
+#menu {
+  margin: 0px;
+  padding: 0px;
+  margin-left: 1500px;
+  margin-top: 30px;
+  position: absolute;
+  background-color: transparent;
+  border: none;
+}
 
+#menu h6 {
+  display: inline-block;
+  padding: 50px;
+  color: white;
+  right: 500px;
+  text-decoration: none;
+  padding: 10px;
+}
 
+#menu h6 a {
+  text-decoration: none;
+  color: white;
+}
 
+#menu :hover {
+  background-color: rgb(105, 0, 204);
+  transition: 1s;
+  margin-bottom: 5px;
+  border-radius: 30px;
+}
