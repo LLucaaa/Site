@@ -1,18 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Acme&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 body {
   margin: 0;
   padding: 0;
-  animation: fadein 2s; /* Padrão */
-  -webkit-animation: fadein 2s; /* Webkit */
-  -moz-animation: fadein 2s; /* Firefox */
-  -ms-animation: fadein 2s; /* IE */
+  opacity: 0;
+  transition: opacity 2s;
+  -webkit-transition: opacity 2s; /* Safari */
 }
-
 
 #background img {
   width: 1903px;
-  position: relative;
-  transition: all 2s;
 }
 
 #text-center {
@@ -24,5 +21,79 @@ body {
   font-size: 50px;
   font-family: "Acme", sans-serif;
   margin-left: 750px;
-  transition: all;
+}
+
+#text {
+  text-align: left;
+  position: absolute;
+  top: 350px;
+  color: white;
+  font-size: 35px;
+  left: 20px;
+  font-family: "Acme", sans-serif;
+}
+
+#text h2 {
+  text-decoration: underline;
+}
+
+#text2 {
+  position: absolute;
+  color: white;
+  text-align: right;
+  top: 800px;
+  font-size: 35px;
+  right: 20px;
+  font-family: "Acme", sans-serif;
+}
+
+#text2 h2 {
+  text-decoration: underline;
+}
+
+.baseboard {
+  background-color: rgb(105, 0, 204);
+  height: 80px;
+  position: absolute;
+  top: 1190px;
+  width: 1903px;
+}
+#copyright {
+  color: white;
+  text-align: center;
+  margin-top: 30px;
+}
+
+#menu a {
+  text-decoration: none;
+  color: black;
+}
+
+#menu {
+  background-color: transparent;
+  position: absolute;
+  margin-top: 30px;
+  right: 200px;
+  font-family: 'Open Sans', sans-serif;
+  
+}
+
+#menu h6{
+    display: inline;
+    font-size: 20px;
+    color: white;
+    padding: 10px;
+
+}
+
+#menu a{
+    color: white;
+}
+
+#menu :hover{
+    background-color: rgb(105, 0, 204);
+  transition: 1s;
+  margin-bottom: 5px;
+  border-radius: 30px;
+
 }
