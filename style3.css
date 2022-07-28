@@ -143,6 +143,11 @@ input {
     border-radius: 30px;
   
   }
+  a{
+    color: white;
+    text-decoration: none;
+  }
+
   
 
 

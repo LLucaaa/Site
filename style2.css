@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Acme&display=swap");
+
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 body {
   margin: 0;
@@ -19,36 +19,33 @@ body {
   position: absolute;
   color: white;
   font-size: 50px;
-  font-family: "Acme", sans-serif;
   margin-left: 750px;
 }
 
 #text {
-  text-align: left;
+  text-align: center;
   position: absolute;
   top: 350px;
   color: white;
   font-size: 35px;
-  left: 20px;
-  font-family: "Acme", sans-serif;
+  left: 440px;
 }
 
 #text h2 {
-  text-decoration: underline;
+  
 }
 
 #text2 {
   position: absolute;
   color: white;
-  text-align: right;
-  top: 800px;
+  text-align: center;
+  top: 750px;
   font-size: 35px;
-  right: 20px;
-  font-family: "Acme", sans-serif;
+  right: 470px;
 }
 
 #text2 h2 {
-  text-decoration: underline;
+ 
 }
 
 .baseboard {
