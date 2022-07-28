@@ -1,5 +1,4 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
 body {
   margin: 0;
   padding: 0;
@@ -31,10 +30,6 @@ body {
   left: 440px;
 }
 
-#text h2 {
-  
-}
-
 #text2 {
   position: absolute;
   color: white;
@@ -42,10 +37,6 @@ body {
   top: 750px;
   font-size: 35px;
   right: 470px;
-}
-
-#text2 h2 {
- 
 }
 
 .baseboard {
@@ -71,26 +62,23 @@ body {
   position: absolute;
   margin-top: 30px;
   right: 200px;
-  font-family: 'Open Sans', sans-serif;
-  
+  font-family: "Open Sans", sans-serif;
 }
 
-#menu h6{
-    display: inline;
-    font-size: 20px;
-    color: white;
-    padding: 10px;
-
+#menu h6 {
+  display: inline;
+  font-size: 20px;
+  color: white;
+  padding: 10px;
 }
 
-#menu a{
-    color: white;
+#menu a {
+  color: white;
 }
 
-#menu :hover{
-    background-color: rgb(105, 0, 204);
+#menu :hover {
+  background-color: rgb(105, 0, 204);
   transition: 1s;
   margin-bottom: 5px;
   border-radius: 30px;
-
 }
